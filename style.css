@@ -1,0 +1,191 @@
+body{
+    margin:0; /*remove margin in body*/
+    font-family: "Salsa", cursive;
+    
+}
+.hero-section{
+    /* min-height: 100vh; */
+    background-color:#F99501;
+    background-image:url(./images/orange-backdrop\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* width:100%; */
+    background-size:cover;
+}
+.hero-section p{
+    font-size: 46px;
+    font-weight: 400;
+    font-family: "Salsa", cursive;
+    max-width:550px;
+    /* margin-left: 15rem; */
+}
+.para-audio{
+    margin-left:15rem;
+}
+
+
+     audio::-webkit-media-controls-panel {
+     background-color:whitesmoke;
+     }
+     .audio-container{
+        max-width: max-content;
+        background-color:whitesmoke;
+        border-radius:45px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding-left:20px;
+     }
+     .hangmala{
+        width: 200px;
+        margin-bottom: -180px;
+     }
+     /* section 2 div start*/
+     .laxmi-ganesh{
+     background: #F99501;
+     padding-block: 1em;
+     padding-inline:1rem;
+        
+     }
+     .laxmi-ganesha-img{
+        max-width: 900px;
+        width: 100%;
+        display: block; /*image center ko lagi use huncha*/
+        margin-inline:auto; /*image center ko lagi use huncha*/
+        padding: 30px;
+     }
+     .circle{
+        height: 10px;
+        width: 10px;
+        background: #fbd8a4;
+        border-radius: 50%;
+        /* display: inline-block; */
+        flex-shrink: 0;
+     }
+     .horizonal-line{
+        height: 2px;
+        background-color: #fbd8a4;
+        width: 468px;
+     }
+     .horizontal-divider{
+        display: flex;
+        align-items: center;
+        gap:12px;
+        max-width: 810px;
+        justify-content: center;
+        margin-inline:auto;/*horizontal line lai center ma rakhna*/
+
+     }
+     
+     .wish-txt h2{
+        text-align:  center;
+        font-size:52px;
+        font-weight: 400;
+        font-family: "Style Script", cursive;
+     }
+     .white-card{
+        background-color: white;
+        max-width: 500px;
+        display:inline-block;
+        padding: 4rem;
+        border-radius: 22px;
+        
+     }
+     .white-card p{
+        font-size: 2rem;
+     }
+     .white-card-container{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        align-items: center;
+     }
+     .cute-girl{
+        width:260px;
+        margin-left:-5rem; /*to make the image in center of its parent*/
+     }
+     .laxmi-ganesh-img-footer{
+        max-width: 900px;
+        width: 100%;
+        display: block; /*image center ko lagi use huncha*/
+        margin-inline:auto; /*image center ko lagi use huncha*/
+        padding: 30px;
+     }
+     .laxmiganesh-footer h2{
+        text-align: left;
+        font-family: "Style Script", cursive;
+        font-size:52px;
+        font-weight: 400;
+        display: inline-block;
+        padding-block: 1em;
+
+     } 
+     .thankyou{
+        max-width: 900px;
+        margin-inline: auto;
+        width: 100%;
+        padding: block;
+     }
+     .credit{
+        text-align: right;
+    font-size: 14px;
+     }
+     
+
+     
+
+/*responsive design code*/
+@media (max-width:835px){
+        .first.dpk{
+            diplay-block
+            margin-left:auto;
+        }
+        .second-dpk{
+            /* display: none; */
+        }
+        .para-audio{
+            margin-left:1rem;
+        }
+        .hangmala{
+            margin-bottom: 0;
+        }
+        .soulful-music{
+            display: none;
+        }
+        .musicbar{
+            display:none;
+        }
+        .audio-container{
+            max-width: max-content;
+        }
+        .hero-section p{
+            font-size: 25px;
+        }
+        .first-dpk{
+            width:100%;/*image size will decrease increase */
+            max-width: 280px;
+        }
+    }    
+    @media (max-width:540px){
+        .wish-txt h2{
+            text-align:  center;
+            font-size:32px;
+            font-weight: 400;
+            font-family: "Style Script", cursive;
+    }
+    .laxmi-ganesha-img{
+        max-width: 900px;
+        width: 100%;
+        display: block; /*image center ko lagi use huncha*/
+        margin-inline:auto; /*image center ko lagi use huncha*/
+        padding: 30px;
+}
+    }
+
+     
+     /* @media (width<820px){
+        .second-dpk{
+            display: none;
+        }
+     } */
+
